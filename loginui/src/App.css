@@ -2,26 +2,13 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  min-height: 20px;
   color: white;
+  text-align: center;
+  align-items: center;
+  text-transform: uppercase;
 }
 
 .App-link {
@@ -35,4 +22,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.CardStyle{
+  display:flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.Card-main{
+  padding: 10px;
+  min-width: 50px;
+  max-height: 100px;
+  min-height: 100px;
+  background-color: darkgrey;
+  border-radius: 10px;
+}
+
+.App-input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App-button{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
