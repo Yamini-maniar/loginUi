@@ -28,15 +28,19 @@
   display:flex;
   justify-content: center;
   align-self: center;
+  height: 30vh;
 }
 
 .Card-main{
-  padding: 10px;
-  min-width: 50px;
-  max-height: 100px;
-  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%; /* Take up available space */
+  max-width: 300px; /* You can adjust this as per your need */
   background-color: darkgrey;
   border-radius: 10px;
+  box-sizing: border-box;
+  gap: 15px; /* Add gap between elements */
 }
 
 .App-input{
