@@ -25,7 +25,7 @@ function AppCard(){
             <div className="Card-main">
                 <AppInput name={'username'} value={username} onChangeValue={(val)=>setUsername(val)} inputLabel={'Username'}/>
                 <AppInput name={'password'} value={password} onChangeValue={(val)=>setPassword(val)} inputLabel={'Password'} isPassword={true}/>
-                <AppButton onClickSubmit={onSubmit}/>
+                <AppButton onClickSubmit={onSubmit} title={'Submit'}/>
             </div>
         </div>
     )

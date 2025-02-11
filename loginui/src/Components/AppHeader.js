@@ -1,7 +1,7 @@
-function AppHeader(){
+function AppHeader({title}){
     return(
-        <div >
-            <h1 className="App-header">Login</h1>
+        <div>
+            <h1 className="App-header">{title}</h1>
         </div>
     )
 }

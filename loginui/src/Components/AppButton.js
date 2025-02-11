@@ -1,4 +1,4 @@
-function AppButton({onClickSubmit}){
+function AppButton({onClickSubmit,title}){
 
     const handleClick = (event) => {
         onClickSubmit(event.target.value); // Update the state with the new value
@@ -6,7 +6,7 @@ function AppButton({onClickSubmit}){
 
     return(
         <div className="App-button">
-            <button type="submit" onClick={handleClick}>Submit</button>
+            <button type="submit" onClick={handleClick} className="Buttonstyle">{title}</button>
         </div>
     )
 }

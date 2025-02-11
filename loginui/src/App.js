@@ -20,7 +20,7 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <AppHeader/>
+      <AppHeader title={'Login'}/>
       <AppCard/>
     </div>
   );
