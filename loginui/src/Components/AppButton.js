@@ -5,8 +5,8 @@ function AppButton({onClickSubmit,title}){
     };
 
     return(
-        <div className="App-button">
-            <button type="submit" onClick={handleClick} className="Buttonstyle">{title}</button>
+        <div class="App-button flex justify-center mt-2">
+            <button type="submit" onClick={handleClick} class="Buttonstyle rounded-md border border-solid px-3 py-1.5 text-sm font-sans text-iceblue bg-[#04316B] uppercase font-medium">{title}</button>
         </div>
     )
 }
